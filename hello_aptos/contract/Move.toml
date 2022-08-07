@@ -1,0 +1,10 @@
+[package]
+name = "hello-aptos"
+version = "0.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet" }
+
+[addresses]
+HelloAptos = "89cba09b3e84eee85074382000886429cd921f745240520a03392fbbad32572e"
+
